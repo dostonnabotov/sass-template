@@ -1,2 +1,3 @@
-# sass-template
-Sass Template
+# Sass Template
+
+Built with [Vite](https://vitejs.dev/)
