@@ -4,21 +4,11 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "watch:sass": "sass --watch sass:public/css",
-    "format": "npx prettier --write .",
-    "build:sass": "sass sass:dist/css",
-    "build:postcss": "postcss dist/css/style.css --replace --no-map --use cssnano",
-    "build:vite": "vite build",
     "dev": "vite",
-    "build": "npm-run-all build:*",
+    "build": "vite build",
     "preview": "vite preview"
   },
   "devDependencies": {
-    "cssnano": "^5.1.14",
-    "npm-run-all": "^4.1.5",
-    "postcss": "^8.4.21",
-    "postcss-cli": "^10.1.0",
-    "prettier": "2.8.2",
     "sass": "^1.57.1",
     "vite": "^4.0.0"
   }
