@@ -1,0 +1,9 @@
+@mixin light-theme {
+  --background-primary: #ffffff;
+  --text-primary: #121212;
+}
+
+@mixin dark-theme {
+  --background-primary: #121212;
+  --text-primary: #ffffff;
+}

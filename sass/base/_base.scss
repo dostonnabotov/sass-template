@@ -1,5 +1,7 @@
+@use "abstracts" as *;
+
 body {
-  font-family: system-ui, sans-serif;
-  background-color: #222;
-  color: #fff;
+  font-family: $ff-sans;
+  background-color: var(--background-primary);
+  color: var(--text-primary);
 }
