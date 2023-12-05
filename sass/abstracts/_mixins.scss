@@ -1,12 +1,22 @@
-@mixin flex-center() {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+@use "./breakpoints" as *;
+
+// media query
+@mixin mq($key) {
+  $size: map-get($breakpoints, $key);
+
+  @if ($size) {
+    @media (width > $size) {
+      @content;
+    }
+  } @else {
+    @error '`#{$key}` does not exist in the $breakpoints';
+  }
 }
 
-@mixin grid-center() {
-  display: grid;
-  place-items: center;
+// line clamp
+@mixin line-clamp($number) {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: $number;
+  overflow: hidden;
 }
-
-

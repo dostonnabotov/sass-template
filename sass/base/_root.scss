@@ -1,3 +1,11 @@
+@use "../abstracts" as *;
+
 :root {
-  --font-body: var(--font-sans);
+  @each $key, $value in $font-sizes {
+    --fs-#{$key}: #{$value};
+  }
+
+  @each $key, $value in $font-weights {
+    --fw-#{$key}: #{$value};
+  }
 }
