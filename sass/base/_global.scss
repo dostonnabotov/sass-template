@@ -1,7 +1,13 @@
 @use "../abstracts" as *;
 
 body {
-  font-family: system-ui;
+  font-family: var(--ff-primary);
   background-color: var(--background-primary);
   color: var(--text-primary);
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.1;
 }

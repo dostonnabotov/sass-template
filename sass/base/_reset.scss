@@ -19,6 +19,8 @@ body {
   line-height: 1.5;
 }
 
+// :where() is used to remove specificity,
+// so that it doesn't interfere when styled with class.
 ul:where([role="list"]),
 ol:where([role="list"]) {
   list-style: none;

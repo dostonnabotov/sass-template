@@ -1,6 +1,10 @@
 @use "../abstracts" as *;
 
 :root {
+  @each $key, $value in $font-families {
+    --ff-#{$key}: #{$value};
+  }
+
   @each $key, $value in $font-sizes {
     --fs-#{$key}: #{$value};
   }

@@ -1,3 +1,13 @@
+// global tokens
+$-ff-roboto: "Roboto", sans-serif;
+$-ff-merriweather: "Merriweather", serif;
+
+// variables & utils
+$font-families: (
+  "primary": $-ff-roboto,
+  "secondary": $-ff-merriweather,
+);
+
 $font-sizes: (
   "300": 0.875rem,
   "400": 1rem,
