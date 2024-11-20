@@ -1,5 +1,11 @@
-// making sure footer is always at the bottom
 body {
   display: grid;
-  grid-template-rows: auto 1fr auto;
+  place-items: center;
+}
+
+.logos {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 3rem;
 }

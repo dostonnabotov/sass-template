@@ -1,6 +1,8 @@
-# Sass Template
+# Sass Template - v2.0
 
 This is a template for a Sass project. Built with [Vite](https://vitejs.dev/).
+
+![Landing Page](/public/landing-page.png)
 
 1. Just download the `sass` folder
 2. Include it in your project.
