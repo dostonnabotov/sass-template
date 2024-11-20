@@ -2,33 +2,16 @@
 
 This is a template for a Sass project. Built with [Vite](https://vitejs.dev/).
 
-## Table of Contents
+1. Just download the `sass` folder
+2. Include it in your project.
+3. Start using Sass Template
 
-- [Getting Started](#getting-started)
-- [Available Scripts](#available-scripts)
-- [Learn More](#learn-more)
+If you want to clone the whole project, run the following:
 
-## Getting Started
+- `npm install` - it will install all dependencies
+- `npm run dev` - runs the app
 
-To get started, clone this repository and run `npm install` to install the dev dependencies.
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm run dev`
-
-Runs the app in the development mode.
-
-### `npm run build`
-
-Builds the app for production to the `dist` folder. It correctly bundles Sass in production mode and optimizes the build for the best performance.
-
-### `npm run preview`
-
-Serves the production build locally.
-
-## Learn More
+## Useful Links
 
 - [Vite Documentation](https://vitejs.dev/guide/)
 - [Sass Documentation](https://sass-lang.com/documentation)
