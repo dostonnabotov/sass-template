@@ -1,5 +1,0 @@
-@use "../abstracts" as *;
-
-.flow > *:where(:not(:first-child)) {
-  margin-top: $flow-space;
-}

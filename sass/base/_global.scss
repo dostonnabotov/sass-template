@@ -2,8 +2,10 @@
 
 body {
   font-family: var(--ff-primary);
-  background-color: var(--background-primary);
-  color: var(--text-primary);
+  font-size: var(--fs-400);
+
+  background-color: var(--clr-background);
+  color: var(--clr-text);
 }
 
 h1,

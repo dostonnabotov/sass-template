@@ -12,4 +12,8 @@
   @each $key, $value in $font-weights {
     --fw-#{$key}: #{$value};
   }
+
+  @each $key, $value in $colors {
+    --clr-#{$key}: #{$value};
+  }
 }

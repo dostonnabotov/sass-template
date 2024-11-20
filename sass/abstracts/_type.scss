@@ -1,13 +1,12 @@
-// global tokens
-$-ff-roboto: "Roboto", sans-serif;
-$-ff-merriweather: "Merriweather", serif;
-
-// variables & utils
 $font-families: (
-  "primary": $-ff-roboto,
-  "secondary": $-ff-merriweather,
+  "primary": sans-serif,
+  "secondary": serif,
 );
 
+/**
+ * Use Utopia to generate responsive font sizes
+ * @link https://utopia.fyi/type/calculator
+ */
 $font-sizes: (
   "300": 0.875rem,
   "400": 1rem,

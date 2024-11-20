@@ -1,0 +1,5 @@
+// making sure footer is always at the bottom
+body {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}

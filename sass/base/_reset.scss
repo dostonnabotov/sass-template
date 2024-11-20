@@ -4,28 +4,13 @@
   box-sizing: border-box;
 }
 
-* {
-  font: inherit;
-  margin: 0;
-}
-
 html:focus-within {
   scroll-behavior: smooth;
 }
 
 body {
   min-height: 100vh;
-  text-rendering: optimizeSpeed;
-  line-height: 1.5;
-}
-
-// :where() is used to remove specificity,
-// so that it doesn't interfere when styled with class.
-ul:where([role="list"]),
-ol:where([role="list"]) {
-  list-style: none;
   margin: 0;
-  padding: 0;
 }
 
 img,
