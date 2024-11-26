@@ -1,9 +1,7 @@
 @use "../abstracts" as *;
 
 :root {
-  @each $key, $value in $font-families {
-    --ff-#{$key}: #{$value};
-  }
+  --ff-primary: system-ui, sans-serif;
 
   @each $key, $value in $font-sizes {
     --fs-#{$key}: #{$value};

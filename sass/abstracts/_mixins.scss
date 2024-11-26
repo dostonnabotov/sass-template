@@ -1,10 +1,6 @@
-// media query
-$breakpoints: (
-  sm: 30em,
-  md: 50em,
-  lg: 75em,
-);
+@use "variables" as *;
 
+// media query
 @mixin mq($key) {
   $size: map-get($breakpoints, $key);
 
@@ -18,9 +14,9 @@ $breakpoints: (
 }
 
 // line clamp
-@mixin line-clamp($number) {
+@mixin line-clamp($row-number) {
   display: -webkit-box;
   -webkit-box-orient: vertical;
-  -webkit-line-clamp: $number;
+  -webkit-line-clamp: $row-number;
   overflow: hidden;
 }
