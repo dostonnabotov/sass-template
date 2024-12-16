@@ -50,10 +50,9 @@ sass/
 ├── style.scss
 ```
 
-If you want to clone the whole project, run the following:
+The way files are ordered is important since it defines which style should override the other. So, I made this diagram to better illustrate it:
 
-- `npm install` - it will install all dependencies
-- `npm run dev` - runs the app
+![Order of SCSS files](/public/scss-files-order.png)
 
 ## Useful Links
 
