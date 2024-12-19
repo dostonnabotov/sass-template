@@ -2,6 +2,8 @@
 
 This is a template for a Sass project. Built with [Vite](https://vitejs.dev/).
 
+[![YouTube](https://img.shields.io/static/v1?label=&message=Watch%20on%20YouTube&labelColor=FFFFFF&color=FF0000&style=for-the-badge&logo=youtube&logoColor=FF0000)](https://youtu.be/GevImMd3o6c?si=qkwrVQYUANBCGlEH)
+
 ![Landing Page](/public/landing-page.png)
 
 ## How to use it
